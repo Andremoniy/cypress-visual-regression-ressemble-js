@@ -1,7 +1,20 @@
 {
-  "extends": ["airbnb-base", "prettier"],
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
   "rules": {
     "prefer-object-spread": 0
   },
-  "ignorePatterns": ["src/*.d.ts"]
+  "env": {
+    "jest/globals": true,
+    "cypress/globals": true
+  },
+  "ignorePatterns": [
+    "src/*.d.ts"
+  ],
+  "plugins": [
+    "jest",
+    "cypress"
+  ]
 }
