@@ -1,4 +1,5 @@
 #!/bin/sh
+
 npm i
 health_check() {
   echo "Waiting NPM server to start..."

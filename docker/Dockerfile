@@ -3,4 +3,4 @@ RUN cd /etc/yum.repos.d/ && sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d
 ADD sample_application /app
 WORKDIR /app
 RUN ["chmod", "+x", "test.sh"]
-CMD ./test.sh
+#CMD ./test.sh
