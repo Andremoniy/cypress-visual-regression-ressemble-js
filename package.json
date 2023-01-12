@@ -1,6 +1,6 @@
 {
   "name": "cypress-visual-regression-resemble-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for adding visual regression testing to Cypress using Resemble.JS library",
   "repository": "https://github.com/andremoniy/cypress-visual-regression-resemble-js",
   "author": "Andrey Lebedev <andremoniy@gmail.com>",

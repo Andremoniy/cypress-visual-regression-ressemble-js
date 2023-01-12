@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --env type=actual",
-    "cypress:snapshots": "cypress run --env type=base"
+    "cypress:run": "cypress run --env type=actual --headless --browser chrome",
+    "cypress:snapshots": "cypress run --env type=base --headless --browser chrome"
   },
   "eslintConfig": {
     "extends": [
